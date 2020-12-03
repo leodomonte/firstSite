@@ -70,7 +70,7 @@ section{
 section .img-perfil{
     background-image: url(../imagens/kyara.jpg);
     background-size: 100% 100%;
-    width: 50%;
+    width: 30%;
     border-radius: 50%;
     border: 3px solid #ccc;
     background-repeat: no-repeat;

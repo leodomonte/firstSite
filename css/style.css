@@ -58,6 +58,7 @@ header .center{
 
 section .center{
     max-width: 1280px;
+    min-height: 300px;
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
@@ -174,11 +175,13 @@ section.contato .redes{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    padding: 10px;
 }
 
-section.contato .redes i{
-    color: white;
-    font-size: 40px;
+section.contato .redes a{
+    background-color: #ff533d;
+    padding: 5px;
+    border: 1px solid white;
 }
 
 @media screen and (max-width:720px){
